@@ -1,4 +1,4 @@
-# chinese2number
+# chinese2num
 Convert Chinese Number to Arabic Number (将中文数字转换成英文)
 
 It supports both Simplified Chinese and Traditional Chinese.
