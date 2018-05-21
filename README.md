@@ -19,6 +19,6 @@ var number2 = chinese2num('五十九亿三百八十万零三');
 assert(number2, 5903800003);
 
 var number3 = chinese2num('二十三点四九');
-assert(number3 = 23.49)
+assert(number3, 23.49)
 
 ```
