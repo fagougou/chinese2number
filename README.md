@@ -9,7 +9,7 @@ npm install chinese2num
 ```
 
 ## Examples
-```
+```javascript
 var chinese2num = require('chinese2num');
 
 var number1 = chinese2num('一千零一');
