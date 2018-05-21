@@ -1,0 +1,27 @@
+{
+  "name": "chinese2number",
+  "version": "1.0.0",
+  "description": "Convert Chinese Number to Arabic Number (将中文数字转换成英文)",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fagougou/chinese2number.git"
+  },
+  "keywords": [
+    "convert",
+    "chinese",
+    "number"
+  ],
+  "author": "Kant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fagougou/chinese2number/issues"
+  },
+  "homepage": "https://github.com/fagougou/chinese2number#readme"
+}
