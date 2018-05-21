@@ -18,10 +18,14 @@
     "chinese",
     "number"
   ],
-  "author": "Kant",
+  "author": "ppn029012",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fagougou/chinese2number/issues"
   },
-  "homepage": "https://github.com/fagougou/chinese2number#readme"
+  "homepage": "https://github.com/fagougou/chinese2number#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
 }
