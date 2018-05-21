@@ -5,20 +5,20 @@ It supports both Simplified Chinese and Traditional Chinese.
 
 ## Install
 ```
-npm install chinese2number
+npm install chinese2num
 ```
 
 ## Examples
 ```
-var chinese2digit = require('chinese2number');
+var chinese2num = require('chinese2num');
 
-var number1 = chinese2digit('一千零一');
+var number1 = chinese2num('一千零一');
 assert(number1, 1001);
 
-var number2 = chinese2digit('五十九亿三百八十万零三');
+var number2 = chinese2num('五十九亿三百八十万零三');
 assert(number2, 5903800003);
 
-var number3 = chinese2digit('二十三点四九');
+var number3 = chinese2num('二十三点四九');
 assert(number3 = 23.49)
 
 ```
