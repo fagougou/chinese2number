@@ -58,5 +58,59 @@ describe('number parse', () => {
         number.should.be.equal(0)
     })
 
+    it('should be 101', () => {
+        const number = chinese2num('一百零一')
+        number.should.be.equal(101)
+    })
+
+    it('should be 1001', () => {
+        const number = chinese2num('一千零一')
+        number.should.be.equal(1001)
+    })
+
+    it('should be 1020', () => {
+        const number = chinese2num('一千零二十')
+        number.should.be.equal(1020)
+    })
+    it('should be 1205', () => {
+        const number = chinese2num('一千二百零五')
+        number.should.be.equal(1205)
+    })
+   
+    it('should be 200040', () => {
+        const number = chinese2num('二十万零四十')
+        number.should.be.equal(200040)
+    })
+
+    it('should be 10010050', () => {
+        const number = chinese2num('一千零一万零五十')
+        number.should.be.equal(10010050)
+    })
+
+    it('should be 10100050', () => {
+        const number = chinese2num('一千零一十万零五十')
+        number.should.be.equal(10100050)
+    })
+
+    it('should be 10001', () => {
+        const number = chinese2num('一万零一')
+        number.should.be.equal(10001)
+    })
+
+    it('should be 10021', () => {
+        const number = chinese2num('一万零二十一')
+        number.should.be.equal(10021)
+    })
+
+    it('should be 10021.34', () => {
+        const number = chinese2num('一万零二十一点三四')
+        number.should.be.equal(10021.34)
+    })
+
+    it('should be 1500000250', () => {
+        const number = chinese2num('一十五亿零二百五十')
+        number.should.be.equal(1500000250)
+    })
+
 
 })

@@ -31,7 +31,7 @@ assert(number3, 23.49)
 
 ```
 
-# DONE
+## Done
 
 1. 支持小数 (e.g. 三十五点五)
 
@@ -42,7 +42,7 @@ assert(number3, 23.49)
 
 
 
-## TO-DO
+## To-dos
 
 1. 支持中文惯用语转换 (e.g. 四万三 => 43000)
 
