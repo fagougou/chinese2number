@@ -1,5 +1,5 @@
 # chinese2num
-Convert Chinese Number to Arabic Number (将中文数字转换成英文)
+Convert Chinese Number to Arabic Number (将中文数字转换成阿拉伯数字)
 
 It supports both Simplified Chinese and Traditional Chinese.
 
@@ -22,3 +22,10 @@ var number3 = chinese2num('二十三点四九');
 assert(number3, 23.49)
 
 ```
+
+
+## TO-DO
+
+1. 支持负数转换
+
+2. 支持中文惯用语转换 (e.g. 四万三 => 43000)

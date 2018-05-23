@@ -37,4 +37,10 @@ describe('salary parse', () => {
         const number = chinese2num('五十五')
         number.should.be.equal(55)
     })
+    
+    it('should be 34.23', () => {
+        const number = chinese2num('三十四点二三')
+        number.should.be.equal(34.23)
+    })
+
 })
