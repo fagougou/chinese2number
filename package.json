@@ -1,7 +1,7 @@
 {
   "name": "chinese2num",
-  "version": "1.0.4",
-  "description": "Convert Chinese Number to Arabic Number (将中文数字转换成英文)",
+  "version": "1.0.5",
+  "description": "Convert Chinese Number to Arabic Number (将中文数字转换成阿拉伯数字)",
   "main": "lib/index.js",
   "directories": {
     "test": "test"
