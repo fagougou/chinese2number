@@ -2,7 +2,7 @@ const chinese2num = require('../lib/index')
 const chai = require('chai')
 const should = chai.should()
 
-describe('salary parse', () => {
+describe('number parse', () => {
     it('should be 43000', () => {
         const number = chinese2num('四万三千')
         number.should.be.equal(43000)
@@ -42,5 +42,21 @@ describe('salary parse', () => {
         const number = chinese2num('三十四点二三')
         number.should.be.equal(34.23)
     })
+
+    it('should be -5', () => {
+        const number = chinese2num('负五')
+        number.should.be.equal(-5)
+    })
+
+    it('should be -5.5', () => {
+        const number = chinese2num('负五点五')
+        number.should.be.equal(-5.5)
+    })
+
+    it('nothing should be 0', () => {
+        const number = chinese2num('')
+        number.should.be.equal(0)
+    })
+
 
 })
