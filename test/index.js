@@ -8,6 +8,11 @@ describe('number parse', () => {
         number.should.be.equal(43000)
     })
 
+    it('should be 10', () => {
+        const number = chinese2num('十')
+        number.should.be.equal(10)
+    })
+
     it('should be 505813', () => {
         const number = chinese2num('五十萬五千八百一十三')
         number.should.be.equal(505813)
