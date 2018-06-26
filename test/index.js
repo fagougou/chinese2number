@@ -37,6 +37,11 @@ describe('number parse', () => {
         const number = chinese2num('零')
         number.should.be.equal(0)
     })
+    
+    it('should be 2', () => {
+        const number = chinese2num('两')
+        number.should.be.equal(2)
+    })
 
     it('should be 55', () => {
         const number = chinese2num('五十五')
